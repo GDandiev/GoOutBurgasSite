@@ -3,6 +3,13 @@
     <head>
         <title>GoOutBurgas </title>
         <link rel="stylesheet" href = "style.css">
+
+        <script>
+            function showMessage() {
+                var sensitiveData = "GoOutBurgas";
+              alert("At the moment, the iOS beta is unavailable." + sensitiveData);
+            }
+          </script>
     </head>
 
     <body>
@@ -18,12 +25,14 @@
 
             <div class="content">
                 <h1>Get active in Burgas.</h1>
-                <p>Discover the hidden sports and entertainment gems of Burgas with our app</p>
+                <p>Discover the hidden sports and entertainment gems of Burgas with GoOutBurgas.</p>
                 
                 <div>
                     <a href="androidGOB.apk" download>  
-                    <button type="button"><span></span>GoOutBurgas Android</button>
-                    </a>
+                    <button type="button"><span></span>GoOutBurgas Android beta</button>
+                    </a> 
+                        <button type="button" onclick="showMessage()"><span></span>GoOutBurgas IOS beta</button>
+                        </a>
                 </div>
             </div>
             
